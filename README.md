@@ -33,7 +33,7 @@ Users should be able to:
 
 ### What I learned
 - How to create opaque background on hover (using span).
-- CSS grid wrapping (https://stackoverflow.com/questions/43129360/css-grid-wrapping) (line 184)
+- CSS grid wrapping (https://stackoverflow.com/questions/43129360/css-grid-wrapping) (scss/3-layout/_body.scss line 184)
 
 ### Useful resources
 - W3Schools: https://www.w3schools.com/
