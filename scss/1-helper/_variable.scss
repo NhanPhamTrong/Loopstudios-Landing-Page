@@ -1,0 +1,28 @@
+// Breakpoints
+// 600px and DOWN: phones
+// 600px and UP: portrait tablets and large phones
+// 768px and up: landscape tablets
+// 992px and up: laptops/desktops
+// 1200px and up: large laptops and desktops
+
+// Colors
+$footer-background: rgb(0, 0, 0);
+$heading-border: rgb(255, 255, 255);
+$menu-background: rgb(0, 0, 0);
+$see-all-btn-border: rgb(0, 0, 0);
+$see-all-btn-background-hover: rgb(0, 0, 0);
+$text-background: rgb(255, 255, 255);
+$word-color-1: rgb(255, 255, 255);
+$word-color-2: rgb(140, 140, 140);
+$word-color-3: rgb(0, 0, 0);
+
+$creationImages: (
+    1: "deep-earth",
+    2: "night-arcade",
+    3: "soccer-team",
+    4: "grid",
+    5: "from-above",
+    6: "pocket-borealis",
+    7: "curiosity",
+    8: "fisheye"
+);

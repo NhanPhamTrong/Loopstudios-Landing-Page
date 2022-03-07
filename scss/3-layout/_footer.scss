@@ -1,0 +1,129 @@
+footer {
+    margin-top: 6rem;
+    padding: 3.25rem 0 0;
+    background-color: $footer-background;
+
+    .container {
+        display: grid;
+        place-items: center;
+
+        .brand {
+            height: 30px;
+            width: 150px;
+            background: url("../images/logo.svg") no-repeat center;
+            background-size: contain;
+        }
+
+        #more-info {
+            grid-row: 2;
+            margin: 2.25rem 0 3rem;
+            text-align: center;
+
+            li {
+                a {
+                    color: $word-color-1;
+                    line-height: 2rem;
+                    position: relative;
+                }
+
+                a:after {
+                    content: "";
+                    height: 2px;
+                    width: 50%;
+                    background-color: white;
+                    display: none;
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0;
+                    transform: translate(50%, -50%);
+                }
+                
+                a:hover:after {
+                    display: block;
+                }
+            }
+        }
+
+        .social-media {
+            grid-row: 3;
+
+            a {
+                margin: 0 0.25rem;
+                color: $word-color-1;
+                position: relative;
+            }
+
+            a:after {
+                content: "";
+                height: 2px;
+                width: 100%;
+                background-color: white;
+                display: none;
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+            }
+            
+            a:hover:after {
+                display: block;
+            }
+        }
+
+        p {
+            grid-row: 4;
+            margin: 1.25rem 0 3.25rem;
+            color: $word-color-2;
+        }
+
+        .attribution {
+            grid-row: 5;
+            color: $word-color-1;
+            font-size: 11px;
+            text-align: center;
+
+            a {
+                color: hsl(228, 45%, 44%);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    footer {
+        .container {
+            .brand {
+                grid-column: 1;
+                grid-row: 1;
+                justify-self: left;
+            }
+
+            #more-info {
+                grid-column: 1;
+                grid-row: 2;
+                display: flex;
+                justify-self: left;
+
+                li {
+                    margin-right: 1rem;
+                }
+            }
+
+            .social-media {
+                grid-column: 2;
+                grid-row: 1;
+                justify-self: right;
+            }
+
+            p {
+                grid-column: 2;
+                grid-row: 2;
+                justify-self: right;
+            }
+
+            .attribution {
+                grid-column: 1/3;
+                grid-row: 3;
+            }
+        }
+    }
+}
