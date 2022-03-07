@@ -1,4 +1,4 @@
-# Loopstudios-Landing-Page
+# Loopstudios Landing Page
 ## Table of contents
 - [Overview](#overview)
   - [Challenge](#challenge)
